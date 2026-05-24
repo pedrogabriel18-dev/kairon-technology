@@ -107,10 +107,14 @@ document.addEventListener('DOMContentLoaded',function(){
     var serviceSelect=document.getElementById('enquiry-type');
     if(serviceSelect){
       serviceSelect.addEventListener('change',function(){
+        // Remove all division modes first
+        document.body.classList.remove('phantom-mode','atlas-mode','orion-mode');
         if(serviceSelect.value==='Phantom Division'){
           document.body.classList.add('phantom-mode');
-        } else {
-          document.body.classList.remove('phantom-mode');
+        } else if(serviceSelect.value==='Atlas Support Command'){
+          document.body.classList.add('atlas-mode');
+        } else if(serviceSelect.value==='Orion Intelligence Cell'){
+          document.body.classList.add('orion-mode');
         }
       });
     }
@@ -120,7 +124,7 @@ document.addEventListener('DOMContentLoaded',function(){
       var orig=btn.textContent;
       btn.textContent='Transmission Sent';
       btn.disabled=true;
-      setTimeout(function(){ btn.textContent=orig; btn.disabled=false; form.reset(); document.body.classList.remove('phantom-mode'); },3000);
+      setTimeout(function(){ btn.textContent=orig; btn.disabled=false; form.reset(); document.body.classList.remove('phantom-mode','atlas-mode','orion-mode'); },3000);
     });
   }
 
