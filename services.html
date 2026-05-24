@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" href="assets/images/logokaironfavicon.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services — Kairon Technology</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+  <link rel="stylesheet" href="css/images.css"/>
+  <script src="js/theme-toggle.js"></script>
+  <style>
+    .service-detail {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 1px;
+      background: var(--border);
+      margin-bottom: 1px;
+    }
+    .service-detail:last-child { margin-bottom: 0; }
+    .service-index-col {
+      background: var(--bg-card);
+      padding: 60px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .service-content-col {
+      background: var(--bg-secondary);
+      padding: 60px 48px;
+    }
+    .service-num {
+      font-family: var(--font-display);
+      font-size: 6rem;
+      color: var(--border-light);
+      line-height: 1;
+    }
+    .service-name {
+      font-family: var(--font-display);
+      font-size: 2.6rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 8px;
+    }
+    .service-tagline {
+      font-family: var(--font-cond);
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .service-features {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .service-feature {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .service-feature-dot {
+      width: 6px; height: 6px;
+      background: var(--accent);
+      transform: rotate(45deg);
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+    .service-feature-text {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .service-detail { grid-template-columns: 1fr; }
+      .service-index-col, .service-content-col { padding: 36px 24px; }
+      .service-num { font-size: 4rem; }
+    }
+  </style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<section class="page-hero">
+  <div class="container page-hero-content">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span>Services</span>
+    </div>
+    <p class="section-label">Capabilities</p>
+    <h1 class="section-title">Our Services</h1>
+    <p class="section-body" style="margin-top:20px">Five integrated disciplines — each designed to address a distinct threat vector, and engineered to operate as a unified protection architecture.</p>
+  </div>
+</section>
+<!-- Banner -->
+<div class="page-banner">
+  <img src="assets/images/27-services-banner.jpg" alt="Services Banner"/>
+  <div class="page-banner-overlay"></div>
+</div>
+
+
+<section class="section">
+  <div class="container">
+
+    <div style="background:var(--border);display:flex;flex-direction:column;gap:1px">
+
+      <!-- 01 Physical Security -->
+      <div class="service-detail">
+        <div class="service-index-col reveal">
+          <div class="service-num">01</div>
+          <div>
+            <div class="service-tagline">Core Service</div>
+            <div class="service-name">Physical Security</div>
+          </div>
+        </div>
+        <div class="service-content-col reveal">
+          <div class="service-img-wrap">
+            <img src="assets/images/03-services-physical-security.png" alt="Physical Security operations"/>
+            <div class="img-badge">Physical Security</div>
+          </div>
+          <p class="section-body">Kairon's physical security division provides comprehensive protection for high-value assets including government facilities, corporate campuses, data centres, and critical infrastructure. Our operatives are drawn from elite military and law enforcement backgrounds, supplemented by advanced sensor and monitoring technology.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <div class="service-feature-dot"></div>
+              <div class="service-feature-text">24/7 armed and unarmed guarding for permanent or temporary deployments</div>
+            </div>
+            <div class="service-feature">
+              <div class="service-feature-dot"></div>
+              <div class="service-feature-text">Access control system design, installation, and management</div>
+            </div>
+            <div class="service-feature">
+              <div class="service-feature-dot"></div>
+              <div class="service-feature-text">Perimeter intrusion detection and rapid response protocols</div>
+            </div>
+            <div class="service-feature">
+              <div class="service-feature-dot"></div>
+              <div class="service-feature-text">Security architecture review and physical penetration testing</div>
+            </div>
+            <div class="service-feature">
+              <div class="service-feature-dot"></div>
+              <div class="service-feature-text">Emergency evacuation planning and crisis response procedures</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02 Executive Protection -->
+      <div class="service-detail">
+        <div class="service-index-col reveal">
+          <div class="service-num">02</div>
+          <div>
+            <div class="service-tagline">Premium Service</div>
+            <div class="service-name">Executive Protection</div>
+          </div>
+        </div>
+        <div class="service-content-col reveal">
+          <div class="service-img-wrap">
+            <img src="assets/images/04-services-executive-protection.png" alt="Executive Protection detail"/>
+            <div class="img-badge">Executive Protection</div>
+          </div>
+          <p class="section-body">Our executive protection programme provides discreet, world-class close protection for heads of state, senior government officials, C-suite executives, and high-net-worth individuals. We operate globally in both benign and hostile environments, with a reputation for absolute professionalism.</p>
+          <div class="service-features">
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Personal protection details for domestic, international, and high-risk travel</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Advance reconnaissance and venue assessment</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Armoured vehicle provision and trained secure drivers</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Threat and risk assessment for all principal movements</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Residential security surveys and ongoing vulnerability assessments</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 Cyber Intelligence -->
+      <div class="service-detail">
+        <div class="service-index-col reveal">
+          <div class="service-num">03</div>
+          <div>
+            <div class="service-tagline">Cipher Division</div>
+            <div class="service-name">Cyber Intelligence</div>
+          </div>
+        </div>
+        <div class="service-content-col reveal">
+          <div class="service-img-wrap">
+            <img src="assets/images/05-services-cyber-intelligence.png" alt="Cyber Intelligence operations"/>
+            <div class="img-badge">Cyber Intelligence</div>
+          </div>
+          <p class="section-body">The Cipher Division operates at the intersection of cybersecurity and intelligence. We do not simply defend — we pursue adversaries, understand their methodologies, and disrupt their operations before they can achieve their objectives against our clients.</p>
+          <div class="service-features">
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Advanced persistent threat (APT) monitoring and counter-operations</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Digital forensics and incident response</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Dark web monitoring and leaked credential surveillance</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Red team adversarial simulation and penetration testing</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Secure communications architecture and cryptographic protocol implementation</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 04 Tactical Operations -->
+      <div class="service-detail">
+        <div class="service-index-col reveal">
+          <div class="service-num">04</div>
+          <div>
+            <div class="service-tagline">Vanguard Unit</div>
+            <div class="service-name">Tactical Operations</div>
+          </div>
+        </div>
+        <div class="service-content-col reveal">
+          <div class="service-img-wrap">
+            <img src="assets/images/06-services-tactical-operations.png" alt="Tactical Operations unit"/>
+            <div class="img-badge">Tactical Operations</div>
+          </div>
+          <p class="section-body">The Vanguard Unit provides rapid-response tactical capabilities for clients operating in complex, high-risk environments. Drawn from special forces backgrounds, Vanguard operatives are trained for a spectrum of contingencies from hostile extractions to facility counter-seizure operations.</p>
+          <div class="service-features">
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Hostile environment extraction and evacuation operations</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Facility security and counter-seizure response</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Maritime and aviation security for high-value asset transport</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Training and capacity building for client internal security teams</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Crisis management advisory and command support</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05 Psychological Security -->
+      <div class="service-detail">
+        <div class="service-index-col reveal">
+          <div class="service-num">05</div>
+          <div>
+            <div class="service-tagline">Emerging Capability</div>
+            <div class="service-name">Psychological Security</div>
+          </div>
+        </div>
+        <div class="service-content-col reveal">
+          <div class="service-img-wrap">
+            <img src="assets/images/07-services-psychological-security.png" alt="Psychological Security briefing"/>
+            <div class="img-badge">Psychological Security</div>
+          </div>
+          <p class="section-body">People remain the most exploitable vulnerability in any security architecture. Our Psychological Security division addresses insider threats, social engineering, influence operations, and the cognitive dimensions of security that technology alone cannot resolve.</p>
+          <div class="service-features">
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Insider threat programme design and continuous monitoring</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Social engineering and phishing resistance training</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Behavioural analysis and anomaly detection frameworks</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Disinformation and influence operation countermeasures</div></div>
+            <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Executive decision-making support under psychological pressure</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-sm section-alt">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:32px">
+    <div>
+      <p class="section-label">Engage Kairon</p>
+      <h2 class="section-title" style="font-size:2.2rem">Discuss Your Security Requirements</h2>
+    </div>
+    <a href="contact.html" class="btn btn-primary">Contact Our Team</a>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="js/components.js"></script>
+<script src="js/language-switcher.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
