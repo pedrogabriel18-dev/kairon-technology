@@ -11,9 +11,9 @@
     <a href="index.html" class="nav-logo">
       <img id="nav-logo-img"
            data-logo="true"
-           data-logo-dark="assets/images/logokaironbranco.jpg"
-           data-logo-light="assets/images/logokaironpreto.jpg"
-           src="assets/images/logokaironbranco.jpg"
+           data-logo-dark="assets/images/logokaironpreto.jpg"
+           data-logo-light="assets/images/logokaironbranco.jpg"
+           src="assets/images/logokaironpreto.jpg"
            alt="Kairon Technology" style="height:36px;width:auto;object-fit:contain"/>
     </a>
     <ul class="nav-links">
@@ -54,9 +54,9 @@
       <div class="footer-brand">
         <a href="index.html" class="nav-logo" style="margin-bottom:20px;display:inline-flex">
           <img data-logo="true"
-               data-logo-dark="assets/images/logokaironbranco.jpg"
-               data-logo-light="assets/images/logokaironpreto.jpg"
-               src="assets/images/logokaironbranco.jpg"
+               data-logo-dark="assets/images/logokaironpreto.jpg"
+               data-logo-light="assets/images/logokaironbranco.jpg"
+               src="assets/images/logokaironpreto.jpg"
                alt="Kairon Technology" style="height:40px;width:auto"/>
         </a>
         <p class="footer-tagline" data-i18n="footer.tagline">Elite security, strategic intelligence, and advanced protection systems for governments and corporations worldwide.</p>
