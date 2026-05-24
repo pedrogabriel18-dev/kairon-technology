@@ -511,6 +511,24 @@ body.phantom-mode .form-control:focus { border-color: var(--red); }
 body.phantom-mode .btn-primary { background: var(--red); border-color: var(--red); }
 body.phantom-mode .btn-primary:hover { background: #8B0000; border-color: #8B0000; }
 body.phantom-mode .section-label, body.phantom-mode .section-label::before { color: var(--red); background: var(--red); }
+/* ── Atlas mode (contact form) ─────────────────────────────── */
+body.atlas-mode .form-control:focus { border-color: #C9A227; }
+body.atlas-mode .btn-primary { background: #C9A227; border-color: #C9A227; color: #000; }
+body.atlas-mode .btn-primary:hover { background: #e0b830; border-color: #e0b830; }
+body.atlas-mode .section-label { color: #C9A227; }
+body.atlas-mode .section-label::before { background: #C9A227; }
+body.atlas-mode .form-label { color: #C9A227; }
+body.atlas-mode select.form-control { border-color: #C9A227; }
+
+/* ── Orion mode (contact form) ─────────────────────────────── */
+body.orion-mode .form-control:focus { border-color: #1F7A1F; }
+body.orion-mode .btn-primary { background: #1F7A1F; border-color: #1F7A1F; color: #fff; }
+body.orion-mode .btn-primary:hover { background: #28a028; border-color: #28a028; }
+body.orion-mode .section-label { color: #1F7A1F; }
+body.orion-mode .section-label::before { background: #1F7A1F; }
+body.orion-mode .form-label { color: #1F7A1F; }
+body.orion-mode select.form-control { border-color: #1F7A1F; }
+
 
 /* ── Footer ────────────────────────────────────────────────── */
 #footer { background: var(--bg-secondary); border-top: 1px solid var(--border); padding: 80px 0 0; }
