@@ -1,0 +1,90 @@
+/* ============================================================
+   KAIRON TECHNOLOGY — responsive.css
+   ============================================================ */
+
+/* ── Tablet: 768px – 1024px ─────────────────────────────── */
+@media (max-width: 1024px) {
+
+  .nav-links { display: none; }
+  #menu-toggle { display: flex; }
+
+  .hero-title { font-size: clamp(3.5rem, 9vw, 7rem); }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .footer-brand { grid-column: 1 / -1; }
+
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .two-col.reverse .col-media { order: 0; }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid { grid-template-columns: repeat(3,1fr); }
+}
+
+/* ── Mobile: < 768px ─────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  :root { --nav-h: 60px; }
+
+  .section { padding: 80px 0; }
+  .section-sm { padding: 56px 0; }
+
+  .hero { padding-bottom: 60px; }
+  .hero-title { font-size: clamp(3rem, 12vw, 5rem); }
+  .hero-cta { flex-direction: column; align-items: flex-start; }
+  .hero-scroll { display: none; }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .stat-item { padding: 24px 20px; }
+  .stat-number { font-size: 2.8rem; }
+
+  .section-title { font-size: clamp(2rem, 8vw, 3rem); }
+
+  .card-grid { grid-template-columns: 1fr; }
+  .testimonial-grid { grid-template-columns: 1fr; }
+  .ops-grid { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: 1fr; }
+  .news-grid { grid-template-columns: 1fr; }
+  .values-grid { grid-template-columns: repeat(2,1fr); }
+  .presence-list { grid-template-columns: repeat(2,1fr); }
+
+  .modal-header { padding: 32px 24px 20px; }
+  .modal-body { padding: 32px 24px; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-brand { grid-column: auto; }
+  .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+  .footer-legal { flex-wrap: wrap; justify-content: center; }
+
+  .contact-info, .contact-form-wrap { padding: 40px 24px; }
+
+  .job-item { grid-template-columns: 1fr; }
+
+  .tech-item { padding: 32px 24px; }
+  .card { padding: 28px 24px; }
+  .ops-card { padding: 36px 24px; }
+  .team-card { padding: 32px 24px; }
+}
+
+/* ── Small: < 480px ─────────────────────────────────────── */
+@media (max-width: 480px) {
+  .hero-title { font-size: clamp(2.5rem, 14vw, 4rem); }
+  .values-grid { grid-template-columns: 1fr; }
+  .presence-list { grid-template-columns: 1fr; }
+  .btn { padding: 12px 22px; font-size: 12px; }
+}
