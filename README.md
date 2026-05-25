@@ -103,7 +103,7 @@ Coloque todas as imagens dentro de `assets/images/` com os nomes exatos abaixo.
 | `logokaironcinza.jpg` | Logo cinza — elementos neutros |
 | `logokaironfavicon.jpg` | Favicon |
 
-### Fotos das páginas (01–58)
+### Fotos das páginas (01–64)
 | Arquivo | Onde aparece |
 |---|---|
 | `01-home-hero-operator.png` | Hero da página inicial |
